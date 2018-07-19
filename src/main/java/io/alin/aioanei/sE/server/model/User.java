@@ -23,5 +23,8 @@ public class User extends Base{
     @NotNull
     @Size(min = 4, max = 10, message = "Size must be between 4 and 10 characters")
     private String password;
-    
+
+    @Column
+    @NotNull
+    private String email;
 }

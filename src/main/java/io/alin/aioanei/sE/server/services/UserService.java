@@ -12,6 +12,7 @@ public interface UserService {
      */
     List<UserDTO> findAll();
 
-    User create(User user);
+    User register(User user);
+
 
 }

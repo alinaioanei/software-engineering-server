@@ -14,10 +14,10 @@ public class CommandLineAppStartupRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        User u = new User();
-        u.setUsername("username");
-        u.setPassword("password");
-
-        userRepository.save(u);
+//        User u = new User();
+//        u.setUsername("username");
+//        u.setPassword("password");
+//        u.setEmail("email");
+//        userRepository.save(u);
     }
 }
